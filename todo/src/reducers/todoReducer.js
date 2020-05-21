@@ -1,25 +1,10 @@
 export const initialList = {
     todo: [
         {
-            what: "Code 2 hours besides school",
+            what: "Study Time!",
             id: 1,
             finished: false
         },
-        {
-            what: "Work Out",
-            id: 5,
-            finished: false
-        },
-        {
-            what: "Finish Project",
-            id: 6,
-            finished: false
-            },
-        {
-            what: "REST",
-            id: 7,
-            finished: false
-        }
     ]}
     export const reducer = (state, action) => {
         // switch statement - simplified if/else if/ ... /else statement
